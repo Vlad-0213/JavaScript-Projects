@@ -4,6 +4,9 @@ document.write("\"Trout baseball's best player,"
 
 var B = "Three1count" + "baseball updates"
 document.write(B)
+var reds = "This text is blue"
+reds= reds.fontcolor("red");
+document.write(reds) 
 
 var Team = "The Yankees", Manager = "Boone" , Captain = "Judge",
     Catcher = "Sanchez" , Pitcher = "Cole"
@@ -12,6 +15,7 @@ document.write(Manager);
 var blues = "This text is blue"
 blues= blues.fontcolor("red");
 document.write(blues)   
+window.alert(blues) 
 
 document.write(10+ 5);
 
