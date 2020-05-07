@@ -6,5 +6,5 @@ function my_Dictionary() {
         Qty:"One"
     };
     delete teamSport.Qty;
-    document.getElementById("Dictionary").innerHTML =teamSport;
+    document.getElementById("Dictionary").innerHTML = teamSport.Brand;  
 }
