@@ -89,3 +89,4 @@ function not_Function() {
     document.write(40 > 10)
     document.getElementById("not_Function").innerHTML =not_Function;
 }
+    
