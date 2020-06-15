@@ -3,7 +3,7 @@ function countdown() {
 
     function tick() {
         seconds = seconds - 1;
-        Timer.innerHTML = seconds;
+        timer.innerHTML = seconds;
         setTimeout(tick, 1000);
     if(seconds == -1) {
         alert("Time's up!")
