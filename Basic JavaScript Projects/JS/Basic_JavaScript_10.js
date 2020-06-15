@@ -55,10 +55,10 @@ function constant_Function() {
         year: "2020",
         color: "Blue",
         description: function() {
-            return "The car is a " + this.year + this.color + this.make + this.model;
+            return "The team is " + this.year +" "+ this.color +" "+ this.team +" "+ this.league +".";
             }
     };
-    document.getElementById("baseball_Object").innerHTML = baseball_description();
+    document.getElementById("baseball_Object").innerHTML = baseball.description();
 
     function break_Function() {
         var text = "";
