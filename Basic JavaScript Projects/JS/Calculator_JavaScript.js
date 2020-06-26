@@ -46,7 +46,7 @@ function Handle_Operator(Next_Operator) {
     // checks if an operator already exists and if Wait_Second_Operator is true,
     // then updates the operator and exits from the function
     if (operator && Calculator.Wait_Second_Operand) {
-        Calculator,operator = Next_Operator;
+        Calculator.operator = Next_Operator;
         return;
     }
     if (First_Operand == null) {
